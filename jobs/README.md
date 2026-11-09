@@ -1,11 +1,12 @@
 # Hugging Face jobs
 
-Two Hugging Face jobs make records for the full wwPDB archive. Each job does one task.
+Two Hugging Face jobs make records for the full wwPDB archive. A third job checks the published records against the archive. Each job does one task.
 
 | Job | Task |
 |---|---|
 | `mirror.py` | Copies the wwPDB mmCIF archive into a Hugging Face bucket. |
 | `convert.py` | Makes a record for each entry in the bucket copy, and writes the records to the bucket. |
+| `fidelity.py` | Compares the published records with the entry files in the bucket copy. |
 
 Run the mirror job first. The convert job does not connect to wwPDB. After a change to the mapping, run only the convert job.
 
@@ -76,3 +77,44 @@ The name of the cache file is a SHA-256 of the files that change the records. Th
 | `convert` | The converter failed for the entry. The entry has no record. |
 | `xsd` | The XML record is not valid for the XSD. The record is in the output. |
 | `duplicate` | An entry with a lower PDB ID has the same DOI. The entry has no record. |
+
+## Fidelity job
+
+The fidelity job does not use the converter. It reads each entry file with the wwPDB `mmcif` package, not with gemmi. It makes the expected record from the rules in [CROSSWALK.md](../CROSSWALK.md). Then it compares this record with the published record.
+
+```sh
+hf jobs uv run --namespace NAMESPACE --flavor cpu-xl --timeout 4h --secrets HF_TOKEN -d \
+  -e HF_HUB_DISABLE_PROGRESS_BARS=1 \
+  -v ./data:/repo/data -v ./schema:/repo/schema \
+  jobs/fidelity.py \
+  --dataset NAMESPACE/DATASET@REVISION \
+  --bucket NAMESPACE/BUCKET --prefix pdb \
+  --funders /repo/data/funder_ror.csv --xsd /repo/schema/datacite-4.7/metadata.xsd \
+  --work-dir /tmp/fidelity --out /tmp/fidelity/out \
+  --publish NAMESPACE/BUCKET/pdb/fidelity/SNAPSHOT/ \
+  --workers 16 --verbose
+```
+
+Give the dataset revision of the records to check. Use the funder table and the XSD of the conversion. The `sha256` block of `MANIFEST.json` gives the hashes of these files.
+
+The job writes `report.json` and `findings.jsonl.gz`. If a check fails, the exit status is 1.
+
+| Check | Records | Test |
+|---|---|---|
+| `coverage` | All | Each holdings entry has one record or one incomplete record. No other record exists. |
+| `manifest` | All | `MANIFEST.json` and `incomplete/reasons.jsonl` agree with the shards. |
+| `pairing` | All | The JSON and XML shards give the same DOIs in the same order. |
+| `xml` | All | The XML record gives the same values as the JSON record. |
+| `xsd` | All | The XML record is valid for the XSD. The job uses libxml2, not the validator of the convert job. |
+| `mandatory` | All | A published record has all mandatory properties. An incomplete record does not. |
+| `text` | All | No value is empty or `?`. No value has a control character, a line break or a space at the start or end. |
+| `property` | Each entry file | Each property is equal to the value that the rules give for the entry file. |
+| `doi` | Each entry file | The DOI is `10.2210/pdbXXXX/pdb` for the entry ID. An entry file can give a wrong DOI. |
+| `source_read` | Each entry file | The wwPDB reader can read the entry file. |
+
+`note` findings show values with two spaces and entry files with non-ASCII text. Some values keep the spaces of the entry file, for example organism names and award numbers. A note is not a failure.
+
+The `accounting` block of `report.json` gives the result for each value of each PDB item. The value is in the record, or a rule left it out. Each rule that leaves out values has the reason and up to five examples.
+
+For a local test, give `--records`, `--holdings` and `--mirror`. These are local copies of the dataset, the holdings files and the archive. `--entries` limits the source checks to a list of PDB IDs.
+
