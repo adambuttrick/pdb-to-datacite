@@ -54,9 +54,11 @@ definitions:
 mandatory:
   doi:
     sources:
+      # The DOI must name this entry: the entry file of 7QNP gives 10.2210/pdb7np/pdb.
       - pdb_database_value:
           item: pdbx_DOI
           resolver: *doi
+          entry_resolver: *pdb_doi
       - entry_id_value:
           resolver: *pdb_doi
 

@@ -15,7 +15,7 @@ The mapping in `data/mapping.yaml` obeys these rules:
 
 | DataCite property | PDB source |
 |---|---|
-| `doi` | `_database_2.pdbx_DOI`, or a DOI from the entry ID if that item has no valid DOI |
+| `doi` | `_database_2.pdbx_DOI` if it is the DOI of the entry, or a DOI from the entry ID |
 | `url` | `https://www.wwpdb.org/pdb?id=` and the extended PDB ID |
 | `types` | Constant: `Dataset`, "Structure model" |
 | `creators` | `_audit_author`, with ORCID iDs |

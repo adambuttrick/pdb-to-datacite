@@ -72,8 +72,17 @@ def field(
                     return
 
 
-def pdb_database_value(entry: PdbEntry, *, item: str, resolver: dict[str, Any]) -> Iterator[str]:
-    if value := _resolve(resolver, entry.pdb_database_row.get(item)):
+def pdb_database_value(
+    entry: PdbEntry, *, item: str, resolver: dict[str, Any], entry_resolver: dict[str, Any] | None = None
+) -> Iterator[str]:
+    """The resolved item of the first _database_2 row for PDB.
+
+    With entry_resolver, the value must also name this entry: it is the value that
+    entry_resolver gives for the entry ID, or it contains the extended PDB ID (letter
+    case ignored). For example, the file of 7QNP gives the DOI 10.2210/pdb7np/pdb.
+    """
+    value = _resolve(resolver, entry.pdb_database_row.get(item))
+    if value and (entry_resolver is None or _names_entry(entry, value, entry_resolver)):
         yield value
 
 
@@ -110,7 +119,11 @@ def contact_persons(
         if not family:
             continue
         given = " ".join(part for part in (row.get(name) for name in given_items) if part)
-        person = _person(f"{family}, {given}" if given else family, row.get(orcid_item), orcid)
+        # The family name has its own item, so a comma in it ("Herzik, Jr.") does not split it.
+        person: dict[str, Any] = {"name": f"{family}, {given}" if given else family, "nameType": "Personal", "familyName": family}
+        if given:
+            person["givenName"] = given
+        person.update(_name_identifiers(row.get(orcid_item), orcid))
         person["contributorType"] = contributor_type
         yield person
 
@@ -264,15 +277,19 @@ def supersessions(
     resolver: dict[str, Any],
     resource_type: str,
 ) -> Iterator[dict[str, str]]:
-    """A row of kind `replaces` relates this entry to the entries it replaced; `replaced_by` to its successor."""
+    """A row of kind `replaces` relates this entry to the entries it replaced; `replaced_by` to its successors.
+
+    Both ID items can hold more than one ID, with spaces between them. For example, 2HHB, 3HHB
+    and 4HHB replace 1HHB. A value that is not a PDB ID, such as NONE, gives no relation.
+    """
     own = entry.id.upper()
     for row in entry.rows(category):
-        new = (row.get(new_item) or "").upper()
+        news = (row.get(new_item) or "").upper().split()
         olds = (row.get(old_item) or "").upper().split()
-        if row.get(kind_item) == replaces["kind"] and new == own:
+        if row.get(kind_item) == replaces["kind"] and own in news:
             targets = [(old, replaces["relation"]) for old in olds]
         elif row.get(kind_item) == replaced_by["kind"] and own in olds:
-            targets = [(new, replaced_by["relation"])]
+            targets = [(new, replaced_by["relation"]) for new in news]
         else:
             continue
         for code, relation in targets:
@@ -374,10 +391,20 @@ def _person(name: str, orcid_value: str | None, orcid: dict[str, Any] | None) ->
         person.update({"nameType": "Personal", "familyName": family})
         if given:
             person["givenName"] = given
-    if orcid and (identifier := _resolve(orcid, orcid_value)):
-        person["nameIdentifiers"] = [{"nameIdentifier": identifier, "nameIdentifierScheme": orcid["scheme"],
-                                      "schemeUri": orcid["scheme_uri"]}]
+    person.update(_name_identifiers(orcid_value, orcid))
     return person
+
+
+def _name_identifiers(orcid_value: str | None, orcid: dict[str, Any] | None) -> dict[str, Any]:
+    if orcid and (identifier := _resolve(orcid, orcid_value)):
+        return {"nameIdentifiers": [{"nameIdentifier": identifier, "nameIdentifierScheme": orcid["scheme"],
+                                     "schemeUri": orcid["scheme_uri"]}]}
+    return {}
+
+
+def _names_entry(entry: PdbEntry, value: str, entry_resolver: dict[str, Any]) -> bool:
+    own = _resolve(entry_resolver, entry.id)
+    return (own is not None and value.lower() == own.lower()) or entry.extended_id.lower() in value.lower()
 
 
 def _citation_relation(row: Mapping[str, str | None], citations: dict[str, Any]) -> str:

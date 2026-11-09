@@ -30,7 +30,7 @@ The table gives the properties in the order of the record.
 
 | DataCite property | PDBx/mmCIF source | Rule |
 |---|---|---|
-| Identifier (DOI) | `_database_2.pdbx_DOI` (row with `database_id` PDB) | Use the DOI as is. If the value is not a valid DOI, make the DOI from the entry ID. |
+| Identifier (DOI) | `_database_2.pdbx_DOI` (row with `database_id` PDB) | Use the DOI as is if it is the DOI of the entry. If the value is not a valid DOI, or if it is the DOI of a different entry, make the DOI from the entry ID. For example, the file of 7QNP gives `10.2210/pdb7np/pdb`. |
 | url | `_database_2.pdbx_database_accession` | `https://www.wwpdb.org/pdb?id=pdb_0000xxxx`, with the extended PDB ID in small letters. |
 | ResourceType | constant | `Dataset`, with the resource type "Structure model". "Structure model" is the PDB value of `data_content_type`. |
 | Creator | `_audit_author.name`, `.identifier_ORCID` | Order by `pdbx_ordinal`. Split "Family, Given" at the first comma. A name without a comma gets no `nameType`. Add the ORCID iD as a name identifier. |
@@ -42,7 +42,7 @@ The table gives the properties in the order of the record.
 | Subject | `_exptl.method` | One subject for each experimental method. The scheme is "PDBx/mmCIF _exptl.method". The scheme URI is the dictionary page of the item. |
 | Subject | `_entity.pdbx_description` (polymer entities) | One subject for each molecule name, without a scheme. |
 | Subject | `_entity.pdbx_ec` | One subject for each EC number. See [UniProt and EC numbers](#uniprot-and-ec-numbers). |
-| Contributor (ContactPerson) | `_pdbx_contact_author` | Name and ORCID iD. The record does not include the email address. |
+| Contributor (ContactPerson) | `_pdbx_contact_author` | Name and ORCID iD. The family name is `name_last`. The given name is `name_first` and `name_mi`. The record does not include the email address. |
 | Contributor (DataCurator) | `_pdbx_database_status.process_site` | The name of the wwPDB site for the site code: RCSB, PDBE, PDBJ, PDBC, BMRB, BNL or NDB. |
 | Contributor (ResearchGroup) | `_pdbx_SG_project.full_name_of_center` | Structural genomics centers only. |
 | Date (Submitted) | `_pdbx_database_status.recvd_initial_deposition_date` | Deposition date. |
@@ -57,7 +57,7 @@ The table gives the properties in the order of the record.
 | RelatedIdentifier | `_pdbx_database_related` | `Other`, with the PDB label in `relationTypeInformation`. See [Related entries](#related-entries). |
 | RelatedIdentifier | `_pdbx_initial_refinement_model` (source PDB) | DOI of the starting model, `IsDerivedFrom`. |
 | RelatedIdentifier | `_pdbx_related_exp_data_set.data_reference` | DOI of the raw data, `IsDerivedFrom`. |
-| RelatedIdentifier | `_pdbx_database_PDB_obs_spr` | `SPRSDE` gives `Obsoletes`. `OBSLTE` gives `IsObsoletedBy`. |
+| RelatedIdentifier | `_pdbx_database_PDB_obs_spr` | `SPRSDE` gives `Obsoletes`. `OBSLTE` gives `IsObsoletedBy`. Each PDB ID in the row gives one relation. For example, 2HHB, 3HHB and 4HHB replace 1HHB. |
 | RelatedIdentifier | `_struct_ref.pdbx_db_accession` (`db_name` UNP) | UniProt URL, `References`. See [UniProt and EC numbers](#uniprot-and-ec-numbers). |
 | RelatedItem | `_citation`, `_citation_author` | A citation without a DOI or PubMed ID gives a full reference: title, authors, year, volume, issue and pages. The record does not include "To be published" citations. |
 | RelatedItem | `_pdbx_deposit_group` | `IsPartOf` a `Collection`. The title is `group_title`. The `number` is the group ID. |
