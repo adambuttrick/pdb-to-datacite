@@ -1,0 +1,371 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb5vhj/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00005vhj",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Lu, Y.",
+          "nameType": "Personal",
+          "familyName": "Lu",
+          "givenName": "Y."
+        },
+        {
+          "name": "Wu, J.",
+          "nameType": "Personal",
+          "familyName": "Wu",
+          "givenName": "J."
+        },
+        {
+          "name": "Dong, Y.",
+          "nameType": "Personal",
+          "familyName": "Dong",
+          "givenName": "Y."
+        },
+        {
+          "name": "Chen, S.",
+          "nameType": "Personal",
+          "familyName": "Chen",
+          "givenName": "S."
+        },
+        {
+          "name": "Sun, S.",
+          "nameType": "Personal",
+          "familyName": "Sun",
+          "givenName": "S."
+        },
+        {
+          "name": "Ma, Y.B.",
+          "nameType": "Personal",
+          "familyName": "Ma",
+          "givenName": "Y.B."
+        },
+        {
+          "name": "Ouyang, Q.",
+          "nameType": "Personal",
+          "familyName": "Ouyang",
+          "givenName": "Q."
+        },
+        {
+          "name": "Finley, D.",
+          "nameType": "Personal",
+          "familyName": "Finley",
+          "givenName": "D."
+        },
+        {
+          "name": "Kirschner, M.W.",
+          "nameType": "Personal",
+          "familyName": "Kirschner",
+          "givenName": "M.W."
+        },
+        {
+          "name": "Mao, Y.",
+          "nameType": "Personal",
+          "familyName": "Mao",
+          "givenName": "Y."
+        }
+      ],
+      "titles": [
+        {
+          "title": "Conformational Landscape of the p28-Bound Human Proteasome Regulatory Particle"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2017",
+      "subjects": [
+        {
+          "subject": "HYDROLASE"
+        },
+        {
+          "subject": "p28"
+        },
+        {
+          "subject": "26S proteasome"
+        },
+        {
+          "subject": "regulatory particle"
+        },
+        {
+          "subject": "19S"
+        },
+        {
+          "subject": "gankyrin"
+        },
+        {
+          "subject": "Homo sapiens",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+          "classificationCode": "9606"
+        },
+        {
+          "subject": "ELECTRON MICROSCOPY",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "26S proteasome non-ATPase regulatory subunit 10"
+        },
+        {
+          "subject": "26S proteasome regulatory subunit 7"
+        },
+        {
+          "subject": "26S proteasome regulatory subunit 4"
+        },
+        {
+          "subject": "26S proteasome regulatory subunit 6B"
+        },
+        {
+          "subject": "26S proteasome regulatory subunit 10B"
+        },
+        {
+          "subject": "26S proteasome regulatory subunit 6A"
+        },
+        {
+          "subject": "26S proteasome regulatory subunit 8"
+        },
+        {
+          "subject": "26S proteasome non-ATPase regulatory subunit 2"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "RCSB Protein Data Bank",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2017-04-13",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2017-08-23",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2018-08-22",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Database references"
+        },
+        {
+          "date": "2024-03-13",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Database references"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "5VHJ",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00005vhj",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1016/j.molcel.2017.06.007",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "28689658",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8677",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "associated EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8674",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8675",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8676",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8672",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8678",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8679",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8680",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8681",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8682",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8683",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-8684",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "10.6019/EMPIAR-10091",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/O75832",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P35998",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P62191",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P43686",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P62333",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P17980",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P62195",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/Q13200",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PHENIX"
+            }
+          ],
+          "edition": "1.11.1_2575:"
+        },
+        {
+          "relationType": "IsCollectedBy",
+          "relatedItemType": "Instrument",
+          "titles": [
+            {
+              "title": "FEI TECNAI ARCTICA"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "1.2",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

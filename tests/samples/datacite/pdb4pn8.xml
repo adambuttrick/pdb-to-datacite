@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb4pn8/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Wood, C.W.</creatorName>
+      <givenName>C.W.</givenName>
+      <familyName>Wood</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Burton, A.J.</creatorName>
+      <givenName>A.J.</givenName>
+      <familyName>Burton</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Thomson, A.R.</creatorName>
+      <givenName>A.R.</givenName>
+      <familyName>Thomson</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Brady, R.L.</creatorName>
+      <givenName>R.L.</givenName>
+      <familyName>Brady</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Woolfson, D.N.</creatorName>
+      <givenName>D.N.</givenName>
+      <familyName>Woolfson</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>A de novo designed pentameric coiled coil CC-Pent.</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2014</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>DE NOVO PROTEIN</subject>
+    <subject>alpha-helical barrel</subject>
+    <subject>coiled coil</subject>
+    <subject>protein design</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32630" classificationCode="32630">Synthetic construct</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">X-RAY DIFFRACTION</subject>
+    <subject>CC-Pent</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">Protein Data Bank in Europe</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2014-05-23</date>
+    <date dateType="Available" dateInformation="Initial release">2014-10-22</date>
+    <date dateType="Updated" dateInformation="Database references">2014-11-05</date>
+    <date dateType="Updated" dateInformation="Advisory, Atomic model, Author supporting evidence, Derived calculations">2017-08-30</date>
+    <date dateType="Updated" dateInformation="Author supporting evidence">2017-09-13</date>
+    <date dateType="Updated" dateInformation="Data collection, Database references, Structure summary">2024-11-06</date>
+    <date dateType="Collected">2014-02-08</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">4PN8</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00004pn8</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.1126/science.1257452</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">25342807</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>2.2</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Methods">0.1 M MES, 10 % w/v PEG 5000 MME, 12% w/v 1-propanol</description>
+  </descriptions>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>European Research Council</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/0472cxd90</funderIdentifier>
+      <awardNumber>340764</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Engineering and Physical Sciences Research Council</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/0439y7842</funderIdentifier>
+      <awardNumber>EP/J001430/1</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Biotechnology and Biological Sciences Research Council</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/00cwqg982</funderIdentifier>
+      <awardNumber>BB/J008990/1</awardNumber>
+    </fundingReference>
+  </fundingReferences>
+  <relatedItems>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>PHENIX</title>
+      </titles>
+      <edition>(phenix.refine: 1.8.2_1309)</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>iMOSFLM</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>Aimless</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>PHASER</title>
+      </titles>
+    </relatedItem>
+  </relatedItems>
+</resource>

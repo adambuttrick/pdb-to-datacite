@@ -1,0 +1,258 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb4dwv/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00004dwv",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Plapp, B.V.",
+          "nameType": "Personal",
+          "familyName": "Plapp",
+          "givenName": "B.V."
+        },
+        {
+          "name": "Ramaswamy, S.",
+          "nameType": "Personal",
+          "familyName": "Ramaswamy",
+          "givenName": "S."
+        }
+      ],
+      "titles": [
+        {
+          "title": "Horse alcohol dehydrogenase complexed with NAD+ and 2,3,4,5,6-pentafluorobenzyl alcohol"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2012",
+      "subjects": [
+        {
+          "subject": "OXIDOREDUCTASE"
+        },
+        {
+          "subject": "ALCOHOL DEHYDROGENASE"
+        },
+        {
+          "subject": "NAD+"
+        },
+        {
+          "subject": "PENTAFLUOROBENZYL ALCOHOL"
+        },
+        {
+          "subject": "MICHAELIS COMPLEX"
+        },
+        {
+          "subject": "ROSSMANN FOLD"
+        },
+        {
+          "subject": "Equus caballus",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9796",
+          "classificationCode": "9796"
+        },
+        {
+          "subject": "X-RAY DIFFRACTION",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "Alcohol dehydrogenase E chain"
+        },
+        {
+          "subject": "1.1.1.1",
+          "subjectScheme": "Enzyme Commission number",
+          "schemeUri": "https://www.enzyme-database.org/",
+          "valueUri": "https://www.enzyme-database.org/query.php?ec=1.1.1.1",
+          "classificationCode": "1.1.1.1"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "RCSB Protein Data Bank",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2012-02-26",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2012-04-11",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2012-05-16",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2012-06-27",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2020-02-12",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2023-09-13",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Database references, Derived calculations, Refinement description"
+        },
+        {
+          "date": "2006-03-09",
+          "dateType": "Collected"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "4DWV",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00004dwv",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1021/bi300378n",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "22531044",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "8172897",
+          "relatedIdentifierType": "PMID",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.1021/bi0272656",
+          "relatedIdentifierType": "DOI",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "12627956",
+          "relatedIdentifierType": "PMID",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.1074/jbc.M305419200",
+          "relatedIdentifierType": "DOI",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "12855684",
+          "relatedIdentifierType": "PMID",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.2210/pdb1hld/pdb",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "10.15785/SBGRID/675",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P00327",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "ADSC"
+            }
+          ],
+          "edition": "Quantum"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "AMoRE"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "REFMAC"
+            }
+          ],
+          "edition": "5.5.0102"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "d*TREK"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "1.4",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "50 mm ammonium n-[tris(hydroxymethyl) methyl]-2-aminoethane sulfonate, ph 6.7 (at 25 c), 0.25 mm edta, 10 mg/ml protein, 1 mm nad+, 10 mm 2,3,4,5,6-pentafluorobenzyl alcohol, 12 to 25 % 2-methyl-2,4-pentanediol, MICRODIALYSIS, temperature 278k",
+          "descriptionType": "Methods"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

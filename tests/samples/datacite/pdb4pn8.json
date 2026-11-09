@@ -1,0 +1,237 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb4pn8/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00004pn8",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Wood, C.W.",
+          "nameType": "Personal",
+          "familyName": "Wood",
+          "givenName": "C.W."
+        },
+        {
+          "name": "Burton, A.J.",
+          "nameType": "Personal",
+          "familyName": "Burton",
+          "givenName": "A.J."
+        },
+        {
+          "name": "Thomson, A.R.",
+          "nameType": "Personal",
+          "familyName": "Thomson",
+          "givenName": "A.R."
+        },
+        {
+          "name": "Brady, R.L.",
+          "nameType": "Personal",
+          "familyName": "Brady",
+          "givenName": "R.L."
+        },
+        {
+          "name": "Woolfson, D.N.",
+          "nameType": "Personal",
+          "familyName": "Woolfson",
+          "givenName": "D.N."
+        }
+      ],
+      "titles": [
+        {
+          "title": "A de novo designed pentameric coiled coil CC-Pent."
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2014",
+      "subjects": [
+        {
+          "subject": "DE NOVO PROTEIN"
+        },
+        {
+          "subject": "alpha-helical barrel"
+        },
+        {
+          "subject": "coiled coil"
+        },
+        {
+          "subject": "protein design"
+        },
+        {
+          "subject": "Synthetic construct",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32630",
+          "classificationCode": "32630"
+        },
+        {
+          "subject": "X-RAY DIFFRACTION",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "CC-Pent"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Protein Data Bank in Europe",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2014-05-23",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2014-10-22",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2014-11-05",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2017-08-30",
+          "dateType": "Updated",
+          "dateInformation": "Advisory, Atomic model, Author supporting evidence, Derived calculations"
+        },
+        {
+          "date": "2017-09-13",
+          "dateType": "Updated",
+          "dateInformation": "Author supporting evidence"
+        },
+        {
+          "date": "2024-11-06",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Database references, Structure summary"
+        },
+        {
+          "date": "2014-02-08",
+          "dateType": "Collected"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "4PN8",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00004pn8",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1126/science.1257452",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "25342807",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PHENIX"
+            }
+          ],
+          "edition": "(phenix.refine: 1.8.2_1309)"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "iMOSFLM"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "Aimless"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PHASER"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "2.2",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "0.1 M MES, 10 % w/v PEG 5000 MME, 12% w/v 1-propanol",
+          "descriptionType": "Methods"
+        }
+      ],
+      "fundingReferences": [
+        {
+          "funderName": "European Research Council",
+          "funderIdentifier": "https://ror.org/0472cxd90",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "340764"
+        },
+        {
+          "funderName": "Engineering and Physical Sciences Research Council",
+          "funderIdentifier": "https://ror.org/0439y7842",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "EP/J001430/1"
+        },
+        {
+          "funderName": "Biotechnology and Biological Sciences Research Council",
+          "funderIdentifier": "https://ror.org/00cwqg982",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "BB/J008990/1"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

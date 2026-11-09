@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb5ozl/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Schiebel, J.</creatorName>
+      <givenName>J.</givenName>
+      <familyName>Schiebel</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Heine, A.</creatorName>
+      <givenName>A.</givenName>
+      <familyName>Heine</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Klebe, G.</creatorName>
+      <givenName>G.</givenName>
+      <familyName>Klebe</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Automated refinement of diffraction data obtained from an endothiapepsin crystal treated with fragment 32</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2016</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>HYDROLASE</subject>
+    <subject>fragment screening</subject>
+    <subject>method development</subject>
+    <subject>aspartic protease</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5116" classificationCode="5116">Cryphonectria parasitica</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">X-RAY DIFFRACTION</subject>
+    <subject>endothiapepsin</subject>
+    <subject subjectScheme="Enzyme Commission number" schemeURI="https://www.enzyme-database.org/" valueURI="https://www.enzyme-database.org/query.php?ec=3.4.23.22" classificationCode="3.4.23.22">3.4.23.22</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">RCSB Protein Data Bank</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2016-06-28</date>
+    <date dateType="Available" dateInformation="Initial release">2016-08-03</date>
+    <date dateType="Updated" dateInformation="Database references">2016-08-10</date>
+    <date dateType="Updated" dateInformation="Database references">2017-01-11</date>
+    <date dateType="Updated" dateInformation="Structure summary">2018-02-21</date>
+    <date dateType="Updated" dateInformation="Data collection, Database references, Structure summary">2021-11-17</date>
+    <date dateType="Updated" dateInformation="Data collection, Structure summary">2024-10-23</date>
+    <date dateType="Updated" dateInformation="Refinement description">2026-02-18</date>
+    <date dateType="Collected">2015-07-17</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">5OZL</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00005ozl</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.1016/j.str.2016.06.010</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">27452405</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDerivedFrom" resourceTypeGeneral="Dataset">10.2210/pdb4y5l/pdb</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P11838</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>1.6</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Methods">0.1 M ammonium acetate, 0.1 M sodium acetate, 24-30% PEG 4000; crystal obtained by streak-seeding and soaked with 90 mM of fragment 32 with the SMILES code CCOC(=O)C1=CC=C(N)C=C1Cl</description>
+  </descriptions>
+  <relatedItems>
+    <relatedItem relatedItemType="Collection" relationType="IsPartOf">
+      <titles>
+        <title>High-Throughput Crystallography: Reliable and Efficient Identification of Fragment Hits.</title>
+      </titles>
+      <number numberType="Other">G_1002001</number>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>XDS</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>PHENIX</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>PHASER</title>
+      </titles>
+      <edition>2.5.7</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>PDB_EXTRACT</title>
+      </titles>
+      <edition>3.20</edition>
+    </relatedItem>
+  </relatedItems>
+</resource>

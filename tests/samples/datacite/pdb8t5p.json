@@ -1,0 +1,238 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb8t5p/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00008t5p",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Busscher, B.M.",
+          "nameType": "Personal",
+          "familyName": "Busscher",
+          "givenName": "B.M.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-3030-211X",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Xiao, T.S.",
+          "nameType": "Personal",
+          "familyName": "Xiao",
+          "givenName": "T.S.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-9688-475X",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "SARS-CoV-2 ORF3a peptide in complex with TRAF3 TRAF domain"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2023",
+      "subjects": [
+        {
+          "subject": "SIGNALING PROTEIN/VIRAL PROTEIN"
+        },
+        {
+          "subject": "signaling protein-viral protein complex"
+        },
+        {
+          "subject": "Homo sapiens",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+          "classificationCode": "9606"
+        },
+        {
+          "subject": "Severe acute respiratory syndrome coronavirus 2",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049",
+          "classificationCode": "2697049"
+        },
+        {
+          "subject": "X-RAY DIFFRACTION",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "TNF receptor-associated factor 3"
+        },
+        {
+          "subject": "ORF3a protein"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Xiao, Tsan Sam",
+          "nameType": "Personal",
+          "familyName": "Xiao",
+          "givenName": "Tsan Sam",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-9688-475X",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ],
+          "contributorType": "ContactPerson"
+        },
+        {
+          "name": "RCSB Protein Data Bank",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2023-06-14",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2023-11-29",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2023-12-06",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2021-03-28",
+          "dateType": "Collected"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "8T5P",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00008t5p",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.3390/v15112229",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "38005906",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.2210/pdb4ghu/pdb",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/Q13114",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P0DTC3",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PHENIX"
+            }
+          ],
+          "edition": "1.20.1_4487"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "XDS"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PHASER"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "1.1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "13% PEG3350, 0.1 M Tris, pH 8.0, 0.25 M ammonium sulfate",
+          "descriptionType": "Methods"
+        }
+      ],
+      "fundingReferences": [
+        {
+          "funderName": "National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)",
+          "funderIdentifier": "https://ror.org/043z4tv69",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "AI141350"
+        },
+        {
+          "funderName": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+          "funderIdentifier": "https://ror.org/04q48ey07",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "GM127609"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb6vxx/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00006vxx",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Walls, A.C.",
+          "nameType": "Personal",
+          "familyName": "Walls",
+          "givenName": "A.C."
+        },
+        {
+          "name": "Park, Y.J.",
+          "nameType": "Personal",
+          "familyName": "Park",
+          "givenName": "Y.J."
+        },
+        {
+          "name": "Tortorici, M.A.",
+          "nameType": "Personal",
+          "familyName": "Tortorici",
+          "givenName": "M.A."
+        },
+        {
+          "name": "Wall, A.",
+          "nameType": "Personal",
+          "familyName": "Wall",
+          "givenName": "A."
+        },
+        {
+          "name": "Seattle Structural Genomics Center for Infectious Disease (SSGCID)"
+        },
+        {
+          "name": "McGuire, A.T.",
+          "nameType": "Personal",
+          "familyName": "McGuire",
+          "givenName": "A.T."
+        },
+        {
+          "name": "Veesler, D.",
+          "nameType": "Personal",
+          "familyName": "Veesler",
+          "givenName": "D."
+        }
+      ],
+      "titles": [
+        {
+          "title": "Structure of the SARS-CoV-2 spike glycoprotein (closed state)"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2020",
+      "subjects": [
+        {
+          "subject": "VIRAL PROTEIN"
+        },
+        {
+          "subject": "Coronavirus"
+        },
+        {
+          "subject": "SARS-CoV-2"
+        },
+        {
+          "subject": "SARS-CoV"
+        },
+        {
+          "subject": "spike glycoprotein"
+        },
+        {
+          "subject": "fusion protein"
+        },
+        {
+          "subject": "Structural Genomics"
+        },
+        {
+          "subject": "Seattle Structural Genomics Center for Infectious Disease"
+        },
+        {
+          "subject": "SSGCID"
+        },
+        {
+          "subject": "Severe acute respiratory syndrome coronavirus 2",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049",
+          "classificationCode": "2697049"
+        },
+        {
+          "subject": "ELECTRON MICROSCOPY",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "RCSB Protein Data Bank",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        },
+        {
+          "name": "Seattle Structural Genomics Center for Infectious Disease",
+          "nameType": "Organizational",
+          "contributorType": "ResearchGroup"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2020-02-25",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2020-03-11",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2020-03-25",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2020-04-01",
+          "dateType": "Updated",
+          "dateInformation": "Structure summary"
+        },
+        {
+          "date": "2020-04-29",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2020-05-06",
+          "dateType": "Updated",
+          "dateInformation": "Database references, Source and taxonomy, Structure summary"
+        },
+        {
+          "date": "2020-07-29",
+          "dateType": "Updated",
+          "dateInformation": "Atomic model, Data collection, Derived calculations, Structure summary"
+        },
+        {
+          "date": "2021-01-27",
+          "dateType": "Updated",
+          "dateInformation": "Structure summary"
+        },
+        {
+          "date": "2024-11-06",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Database references, Structure summary"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "6VXX",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00006vxx",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1016/j.cell.2020.02.058",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "32155444",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-21452",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "associated EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-21457",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "other EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P0DTC2",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "Warp"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "Leginon"
+            }
+          ],
+          "edition": "3.3"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "RELION"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "cryoSPARC"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCollectedBy",
+          "relatedItemType": "Instrument",
+          "titles": [
+            {
+              "title": "FEI TITAN KRIOS"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "2.2",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "fundingReferences": [
+        {
+          "funderName": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+          "funderIdentifier": "https://ror.org/04q48ey07",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "GM120553"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

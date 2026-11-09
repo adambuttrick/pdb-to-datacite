@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb6vxx/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Walls, A.C.</creatorName>
+      <givenName>A.C.</givenName>
+      <familyName>Walls</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Park, Y.J.</creatorName>
+      <givenName>Y.J.</givenName>
+      <familyName>Park</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Tortorici, M.A.</creatorName>
+      <givenName>M.A.</givenName>
+      <familyName>Tortorici</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Wall, A.</creatorName>
+      <givenName>A.</givenName>
+      <familyName>Wall</familyName>
+    </creator>
+    <creator>
+      <creatorName>Seattle Structural Genomics Center for Infectious Disease (SSGCID)</creatorName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">McGuire, A.T.</creatorName>
+      <givenName>A.T.</givenName>
+      <familyName>McGuire</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Veesler, D.</creatorName>
+      <givenName>D.</givenName>
+      <familyName>Veesler</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Structure of the SARS-CoV-2 spike glycoprotein (closed state)</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2020</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>VIRAL PROTEIN</subject>
+    <subject>Coronavirus</subject>
+    <subject>SARS-CoV-2</subject>
+    <subject>SARS-CoV</subject>
+    <subject>spike glycoprotein</subject>
+    <subject>fusion protein</subject>
+    <subject>Structural Genomics</subject>
+    <subject>Seattle Structural Genomics Center for Infectious Disease</subject>
+    <subject>SSGCID</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049" classificationCode="2697049">Severe acute respiratory syndrome coronavirus 2</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">ELECTRON MICROSCOPY</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">RCSB Protein Data Bank</contributorName>
+    </contributor>
+    <contributor contributorType="ResearchGroup">
+      <contributorName nameType="Organizational">Seattle Structural Genomics Center for Infectious Disease</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2020-02-25</date>
+    <date dateType="Available" dateInformation="Initial release">2020-03-11</date>
+    <date dateType="Updated" dateInformation="Database references">2020-03-25</date>
+    <date dateType="Updated" dateInformation="Structure summary">2020-04-01</date>
+    <date dateType="Updated" dateInformation="Database references">2020-04-29</date>
+    <date dateType="Updated" dateInformation="Database references, Source and taxonomy, Structure summary">2020-05-06</date>
+    <date dateType="Updated" dateInformation="Atomic model, Data collection, Derived calculations, Structure summary">2020-07-29</date>
+    <date dateType="Updated" dateInformation="Structure summary">2021-01-27</date>
+    <date dateType="Updated" dateInformation="Data collection, Database references, Structure summary">2024-11-06</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">6VXX</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00006vxx</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.1016/j.cell.2020.02.058</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">32155444</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="associated EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-21452</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-21457</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P0DTC2</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>2.2</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/04q48ey07</funderIdentifier>
+      <awardNumber>GM120553</awardNumber>
+    </fundingReference>
+  </fundingReferences>
+  <relatedItems>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>Warp</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>Leginon</title>
+      </titles>
+      <edition>3.3</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>RELION</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>cryoSPARC</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Instrument" relationType="IsCollectedBy">
+      <titles>
+        <title>FEI TITAN KRIOS</title>
+      </titles>
+    </relatedItem>
+  </relatedItems>
+</resource>

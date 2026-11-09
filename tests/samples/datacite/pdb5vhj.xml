@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb5vhj/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Lu, Y.</creatorName>
+      <givenName>Y.</givenName>
+      <familyName>Lu</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Wu, J.</creatorName>
+      <givenName>J.</givenName>
+      <familyName>Wu</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Dong, Y.</creatorName>
+      <givenName>Y.</givenName>
+      <familyName>Dong</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Chen, S.</creatorName>
+      <givenName>S.</givenName>
+      <familyName>Chen</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Sun, S.</creatorName>
+      <givenName>S.</givenName>
+      <familyName>Sun</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Ma, Y.B.</creatorName>
+      <givenName>Y.B.</givenName>
+      <familyName>Ma</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Ouyang, Q.</creatorName>
+      <givenName>Q.</givenName>
+      <familyName>Ouyang</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Finley, D.</creatorName>
+      <givenName>D.</givenName>
+      <familyName>Finley</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Kirschner, M.W.</creatorName>
+      <givenName>M.W.</givenName>
+      <familyName>Kirschner</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Mao, Y.</creatorName>
+      <givenName>Y.</givenName>
+      <familyName>Mao</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Conformational Landscape of the p28-Bound Human Proteasome Regulatory Particle</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2017</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>HYDROLASE</subject>
+    <subject>p28</subject>
+    <subject>26S proteasome</subject>
+    <subject>regulatory particle</subject>
+    <subject>19S</subject>
+    <subject>gankyrin</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606" classificationCode="9606">Homo sapiens</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">ELECTRON MICROSCOPY</subject>
+    <subject>26S proteasome non-ATPase regulatory subunit 10</subject>
+    <subject>26S proteasome regulatory subunit 7</subject>
+    <subject>26S proteasome regulatory subunit 4</subject>
+    <subject>26S proteasome regulatory subunit 6B</subject>
+    <subject>26S proteasome regulatory subunit 10B</subject>
+    <subject>26S proteasome regulatory subunit 6A</subject>
+    <subject>26S proteasome regulatory subunit 8</subject>
+    <subject>26S proteasome non-ATPase regulatory subunit 2</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">RCSB Protein Data Bank</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2017-04-13</date>
+    <date dateType="Available" dateInformation="Initial release">2017-08-23</date>
+    <date dateType="Updated" dateInformation="Data collection, Database references">2018-08-22</date>
+    <date dateType="Updated" dateInformation="Data collection, Database references">2024-03-13</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">5VHJ</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00005vhj</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.1016/j.molcel.2017.06.007</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">28689658</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="associated EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8677</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8674</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8675</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8676</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8672</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8678</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8679</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8680</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8681</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8682</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8683</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="other EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-8684</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDerivedFrom" resourceTypeGeneral="Dataset">10.6019/EMPIAR-10091</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/O75832</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P35998</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P62191</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P43686</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P62333</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P17980</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P62195</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/Q13200</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>1.2</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <relatedItems>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>PHENIX</title>
+      </titles>
+      <edition>1.11.1_2575:</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Instrument" relationType="IsCollectedBy">
+      <titles>
+        <title>FEI TECNAI ARCTICA</title>
+      </titles>
+    </relatedItem>
+  </relatedItems>
+</resource>

@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb4hhb/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Fermi, G.</creatorName>
+      <givenName>G.</givenName>
+      <familyName>Fermi</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Perutz, M.F.</creatorName>
+      <givenName>M.F.</givenName>
+      <familyName>Perutz</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>THE CRYSTAL STRUCTURE OF HUMAN DEOXYHAEMOGLOBIN AT 1.74 ANGSTROMS RESOLUTION</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>1984</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>OXYGEN TRANSPORT</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606" classificationCode="9606">Homo sapiens</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">X-RAY DIFFRACTION</subject>
+    <subject>Hemoglobin subunit alpha</subject>
+    <subject>Hemoglobin subunit beta</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">Protein Data Bank at Brookhaven National Laboratory</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">1984-03-07</date>
+    <date dateType="Available" dateInformation="Initial release">1984-07-17</date>
+    <date dateType="Updated" dateInformation="Version format compliance">2008-03-03</date>
+    <date dateType="Updated" dateInformation="Advisory, Version format compliance">2011-07-13</date>
+    <date dateType="Updated" dateInformation="Advisory, Atomic model, Data collection, Database references, Other, Source and taxonomy, Structure summary">2020-06-17</date>
+    <date dateType="Updated" dateInformation="Atomic model, Data collection, Derived calculations">2021-03-31</date>
+    <date dateType="Updated" dateInformation="Advisory, Atomic model, Data collection, Database references, Derived calculations, Other, Refinement description">2023-02-08</date>
+    <date dateType="Updated" dateInformation="Advisory">2023-03-15</date>
+    <date dateType="Updated" dateInformation="Data collection">2024-05-22</date>
+    <date dateType="Updated" dateInformation="Derived calculations, Structure summary">2026-08-12</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">4HHB</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00004hhb</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.1016/0022-2836(84)90472-8</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">6726807</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="Obsoletes" resourceTypeGeneral="Dataset">10.2210/pdb1hhb/pdb</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P69905</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P68871</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>4.3</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <relatedItems>
+    <relatedItem relatedItemType="JournalArticle" relationType="References">
+      <creators>
+        <creator>
+          <creatorName nameType="Personal">Perutz, M.F.</creatorName>
+          <givenName>M.F.</givenName>
+          <familyName>Perutz</familyName>
+        </creator>
+        <creator>
+          <creatorName nameType="Personal">Hasnain, S.S.</creatorName>
+          <givenName>S.S.</givenName>
+          <familyName>Hasnain</familyName>
+        </creator>
+        <creator>
+          <creatorName nameType="Personal">Duke, P.J.</creatorName>
+          <givenName>P.J.</givenName>
+          <familyName>Duke</familyName>
+        </creator>
+        <creator>
+          <creatorName nameType="Personal">Sessler, J.L.</creatorName>
+          <givenName>J.L.</givenName>
+          <familyName>Sessler</familyName>
+        </creator>
+        <creator>
+          <creatorName nameType="Personal">Hahn, J.E.</creatorName>
+          <givenName>J.E.</givenName>
+          <familyName>Hahn</familyName>
+        </creator>
+      </creators>
+      <titles>
+        <title>Stereochemistry of Iron in Deoxyhaemoglobin</title>
+      </titles>
+      <publicationYear>1982</publicationYear>
+      <volume>295</volume>
+      <firstPage>535</firstPage>
+    </relatedItem>
+    <relatedItem relatedItemType="JournalArticle" relationType="References">
+      <creators>
+        <creator>
+          <creatorName nameType="Personal">Perutz, M.F.</creatorName>
+          <givenName>M.F.</givenName>
+          <familyName>Perutz</familyName>
+        </creator>
+      </creators>
+      <titles>
+        <title>Regulation of Oxygen Affinity of Hemoglobin. Influence of Structure of the Globin on the Heme Iron</title>
+      </titles>
+      <publicationYear>1979</publicationYear>
+      <volume>48</volume>
+      <firstPage>327</firstPage>
+    </relatedItem>
+    <relatedItem relatedItemType="JournalArticle" relationType="References">
+      <creators>
+        <creator>
+          <creatorName nameType="Personal">Teneyck, L.F.</creatorName>
+          <givenName>L.F.</givenName>
+          <familyName>Teneyck</familyName>
+        </creator>
+        <creator>
+          <creatorName nameType="Personal">Arnone, A.</creatorName>
+          <givenName>A.</givenName>
+          <familyName>Arnone</familyName>
+        </creator>
+      </creators>
+      <titles>
+        <title>Three-Dimensional Fourier Synthesis of Human Deoxyhemoglobin at 2.5 Angstroms Resolution, I.X-Ray Analysis</title>
+      </titles>
+      <publicationYear>1976</publicationYear>
+      <volume>100</volume>
+      <firstPage>3</firstPage>
+    </relatedItem>
+    <relatedItem relatedItemType="JournalArticle" relationType="References">
+      <creators>
+        <creator>
+          <creatorName nameType="Personal">Fermi, G.</creatorName>
+          <givenName>G.</givenName>
+          <familyName>Fermi</familyName>
+        </creator>
+      </creators>
+      <titles>
+        <title>Three-Dimensional Fourier Synthesis of Human Deoxyhaemoglobin at 2.5 Angstroms Resolution, Refinement of the Atomic Model</title>
+      </titles>
+      <publicationYear>1975</publicationYear>
+      <volume>97</volume>
+      <firstPage>237</firstPage>
+    </relatedItem>
+    <relatedItem relatedItemType="JournalArticle" relationType="References">
+      <creators>
+        <creator>
+          <creatorName nameType="Personal">Muirhead, H.</creatorName>
+          <givenName>H.</givenName>
+          <familyName>Muirhead</familyName>
+        </creator>
+        <creator>
+          <creatorName nameType="Personal">Greer, J.</creatorName>
+          <givenName>J.</givenName>
+          <familyName>Greer</familyName>
+        </creator>
+      </creators>
+      <titles>
+        <title>Three-Dimensional Fourier Synthesis of Human Deoxyhaemoglobin at 3.5 Angstroms Resolution</title>
+      </titles>
+      <publicationYear>1970</publicationYear>
+      <volume>228</volume>
+      <firstPage>516</firstPage>
+    </relatedItem>
+  </relatedItems>
+</resource>

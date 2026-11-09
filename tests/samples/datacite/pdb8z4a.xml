@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb8z4a/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Deshmukh, M.V.</creatorName>
+      <givenName>M.V.</givenName>
+      <familyName>Deshmukh</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0003-2447-9725</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Paturi, S.</creatorName>
+      <givenName>S.</givenName>
+      <familyName>Paturi</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0003-2468-8383</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Patra, D.</creatorName>
+      <givenName>D.</givenName>
+      <familyName>Patra</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-4427-7357</nameIdentifier>
+    </creator>
+  </creators>
+  <titles>
+    <title>Solution Structure of DRB4 C-terminal domain, DRB4D3</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2025</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>PLANT PROTEIN</subject>
+    <subject>DRB4</subject>
+    <subject>DRB7.2</subject>
+    <subject>RNAi</subject>
+    <subject>endo-IR pathway</subject>
+    <subject>gene regulation</subject>
+    <subject>noncoding RNA</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3702" classificationCode="3702">Arabidopsis thaliana</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">SOLUTION NMR</subject>
+    <subject>Double-stranded RNA-binding protein 4</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="ContactPerson">
+      <contributorName nameType="Personal">Deshmukh, Mandar V</contributorName>
+      <givenName>Mandar V</givenName>
+      <familyName>Deshmukh</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0003-2447-9725</nameIdentifier>
+    </contributor>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">Protein Data Bank Japan</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2024-04-17</date>
+    <date dateType="Available" dateInformation="Initial release">2025-04-23</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">8Z4A</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00008z4a</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.7554/elife.105762.1</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/Q8H1D4</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>1.0</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>Council of Scientific &amp; Industrial Research (CSIR)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/021wm7p51</funderIdentifier>
+      <awardNumber>MLP0161</awardNumber>
+    </fundingReference>
+  </fundingReferences>
+  <relatedItems>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>CARA</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>Rosetta</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>TopSpin</title>
+      </titles>
+    </relatedItem>
+  </relatedItems>
+</resource>

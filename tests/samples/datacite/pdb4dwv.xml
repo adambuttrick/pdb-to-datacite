@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb4dwv/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Plapp, B.V.</creatorName>
+      <givenName>B.V.</givenName>
+      <familyName>Plapp</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Ramaswamy, S.</creatorName>
+      <givenName>S.</givenName>
+      <familyName>Ramaswamy</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Horse alcohol dehydrogenase complexed with NAD+ and 2,3,4,5,6-pentafluorobenzyl alcohol</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2012</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>OXIDOREDUCTASE</subject>
+    <subject>ALCOHOL DEHYDROGENASE</subject>
+    <subject>NAD+</subject>
+    <subject>PENTAFLUOROBENZYL ALCOHOL</subject>
+    <subject>MICHAELIS COMPLEX</subject>
+    <subject>ROSSMANN FOLD</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9796" classificationCode="9796">Equus caballus</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">X-RAY DIFFRACTION</subject>
+    <subject>Alcohol dehydrogenase E chain</subject>
+    <subject subjectScheme="Enzyme Commission number" schemeURI="https://www.enzyme-database.org/" valueURI="https://www.enzyme-database.org/query.php?ec=1.1.1.1" classificationCode="1.1.1.1">1.1.1.1</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">RCSB Protein Data Bank</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2012-02-26</date>
+    <date dateType="Available" dateInformation="Initial release">2012-04-11</date>
+    <date dateType="Updated" dateInformation="Database references">2012-05-16</date>
+    <date dateType="Updated" dateInformation="Database references">2012-06-27</date>
+    <date dateType="Updated" dateInformation="Database references">2020-02-12</date>
+    <date dateType="Updated" dateInformation="Data collection, Database references, Derived calculations, Refinement description">2023-09-13</date>
+    <date dateType="Collected">2006-03-09</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">4DWV</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00004dwv</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.1021/bi300378n</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">22531044</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="References" resourceTypeGeneral="JournalArticle">8172897</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="References" resourceTypeGeneral="JournalArticle">10.1021/bi0272656</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="References" resourceTypeGeneral="JournalArticle">12627956</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="References" resourceTypeGeneral="JournalArticle">10.1074/jbc.M305419200</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="References" resourceTypeGeneral="JournalArticle">12855684</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDerivedFrom" resourceTypeGeneral="Dataset">10.2210/pdb1hld/pdb</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDerivedFrom" resourceTypeGeneral="Dataset">10.15785/SBGRID/675</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P00327</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>1.4</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Methods">50 mm ammonium n-[tris(hydroxymethyl) methyl]-2-aminoethane sulfonate, ph 6.7 (at 25 c), 0.25 mm edta, 10 mg/ml protein, 1 mm nad+, 10 mm 2,3,4,5,6-pentafluorobenzyl alcohol, 12 to 25 % 2-methyl-2,4-pentanediol, MICRODIALYSIS, temperature 278k</description>
+  </descriptions>
+  <relatedItems>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>ADSC</title>
+      </titles>
+      <edition>Quantum</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>AMoRE</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>REFMAC</title>
+      </titles>
+      <edition>5.5.0102</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>d*TREK</title>
+      </titles>
+    </relatedItem>
+  </relatedItems>
+</resource>

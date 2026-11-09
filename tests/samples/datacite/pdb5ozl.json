@@ -1,0 +1,243 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb5ozl/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00005ozl",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Schiebel, J.",
+          "nameType": "Personal",
+          "familyName": "Schiebel",
+          "givenName": "J."
+        },
+        {
+          "name": "Heine, A.",
+          "nameType": "Personal",
+          "familyName": "Heine",
+          "givenName": "A."
+        },
+        {
+          "name": "Klebe, G.",
+          "nameType": "Personal",
+          "familyName": "Klebe",
+          "givenName": "G."
+        }
+      ],
+      "titles": [
+        {
+          "title": "Automated refinement of diffraction data obtained from an endothiapepsin crystal treated with fragment 32"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2016",
+      "subjects": [
+        {
+          "subject": "HYDROLASE"
+        },
+        {
+          "subject": "fragment screening"
+        },
+        {
+          "subject": "method development"
+        },
+        {
+          "subject": "aspartic protease"
+        },
+        {
+          "subject": "Cryphonectria parasitica",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5116",
+          "classificationCode": "5116"
+        },
+        {
+          "subject": "X-RAY DIFFRACTION",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "endothiapepsin"
+        },
+        {
+          "subject": "3.4.23.22",
+          "subjectScheme": "Enzyme Commission number",
+          "schemeUri": "https://www.enzyme-database.org/",
+          "valueUri": "https://www.enzyme-database.org/query.php?ec=3.4.23.22",
+          "classificationCode": "3.4.23.22"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "RCSB Protein Data Bank",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2016-06-28",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2016-08-03",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2016-08-10",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2017-01-11",
+          "dateType": "Updated",
+          "dateInformation": "Database references"
+        },
+        {
+          "date": "2018-02-21",
+          "dateType": "Updated",
+          "dateInformation": "Structure summary"
+        },
+        {
+          "date": "2021-11-17",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Database references, Structure summary"
+        },
+        {
+          "date": "2024-10-23",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Structure summary"
+        },
+        {
+          "date": "2026-02-18",
+          "dateType": "Updated",
+          "dateInformation": "Refinement description"
+        },
+        {
+          "date": "2015-07-17",
+          "dateType": "Collected"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "5OZL",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00005ozl",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1016/j.str.2016.06.010",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "27452405",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.2210/pdb4y5l/pdb",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P11838",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsPartOf",
+          "relatedItemType": "Collection",
+          "titles": [
+            {
+              "title": "High-Throughput Crystallography: Reliable and Efficient Identification of Fragment Hits."
+            }
+          ],
+          "number": "G_1002001",
+          "numberType": "Other"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "XDS"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PHENIX"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PHASER"
+            }
+          ],
+          "edition": "2.5.7"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PDB_EXTRACT"
+            }
+          ],
+          "edition": "3.20"
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "1.6",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "0.1 M ammonium acetate, 0.1 M sodium acetate, 24-30% PEG 4000; crystal obtained by streak-seeding and soaked with 90 mM of fragment 32 with the SMILES code CCOC(=O)C1=CC=C(N)C=C1Cl",
+          "descriptionType": "Methods"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

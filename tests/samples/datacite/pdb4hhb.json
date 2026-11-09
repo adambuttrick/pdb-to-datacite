@@ -1,0 +1,317 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb4hhb/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00004hhb",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Fermi, G.",
+          "nameType": "Personal",
+          "familyName": "Fermi",
+          "givenName": "G."
+        },
+        {
+          "name": "Perutz, M.F.",
+          "nameType": "Personal",
+          "familyName": "Perutz",
+          "givenName": "M.F."
+        }
+      ],
+      "titles": [
+        {
+          "title": "THE CRYSTAL STRUCTURE OF HUMAN DEOXYHAEMOGLOBIN AT 1.74 ANGSTROMS RESOLUTION"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "1984",
+      "subjects": [
+        {
+          "subject": "OXYGEN TRANSPORT"
+        },
+        {
+          "subject": "Homo sapiens",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+          "classificationCode": "9606"
+        },
+        {
+          "subject": "X-RAY DIFFRACTION",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "Hemoglobin subunit alpha"
+        },
+        {
+          "subject": "Hemoglobin subunit beta"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Protein Data Bank at Brookhaven National Laboratory",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "1984-03-07",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "1984-07-17",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2008-03-03",
+          "dateType": "Updated",
+          "dateInformation": "Version format compliance"
+        },
+        {
+          "date": "2011-07-13",
+          "dateType": "Updated",
+          "dateInformation": "Advisory, Version format compliance"
+        },
+        {
+          "date": "2020-06-17",
+          "dateType": "Updated",
+          "dateInformation": "Advisory, Atomic model, Data collection, Database references, Other, Source and taxonomy, Structure summary"
+        },
+        {
+          "date": "2021-03-31",
+          "dateType": "Updated",
+          "dateInformation": "Atomic model, Data collection, Derived calculations"
+        },
+        {
+          "date": "2023-02-08",
+          "dateType": "Updated",
+          "dateInformation": "Advisory, Atomic model, Data collection, Database references, Derived calculations, Other, Refinement description"
+        },
+        {
+          "date": "2023-03-15",
+          "dateType": "Updated",
+          "dateInformation": "Advisory"
+        },
+        {
+          "date": "2024-05-22",
+          "dateType": "Updated",
+          "dateInformation": "Data collection"
+        },
+        {
+          "date": "2026-08-12",
+          "dateType": "Updated",
+          "dateInformation": "Derived calculations, Structure summary"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "4HHB",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00004hhb",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1016/0022-2836(84)90472-8",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "6726807",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.2210/pdb1hhb/pdb",
+          "relatedIdentifierType": "DOI",
+          "relationType": "Obsoletes",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P69905",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P68871",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "References",
+          "relatedItemType": "JournalArticle",
+          "creators": [
+            {
+              "name": "Perutz, M.F.",
+              "nameType": "Personal",
+              "familyName": "Perutz",
+              "givenName": "M.F."
+            },
+            {
+              "name": "Hasnain, S.S.",
+              "nameType": "Personal",
+              "familyName": "Hasnain",
+              "givenName": "S.S."
+            },
+            {
+              "name": "Duke, P.J.",
+              "nameType": "Personal",
+              "familyName": "Duke",
+              "givenName": "P.J."
+            },
+            {
+              "name": "Sessler, J.L.",
+              "nameType": "Personal",
+              "familyName": "Sessler",
+              "givenName": "J.L."
+            },
+            {
+              "name": "Hahn, J.E.",
+              "nameType": "Personal",
+              "familyName": "Hahn",
+              "givenName": "J.E."
+            }
+          ],
+          "titles": [
+            {
+              "title": "Stereochemistry of Iron in Deoxyhaemoglobin"
+            }
+          ],
+          "publicationYear": "1982",
+          "volume": "295",
+          "firstPage": "535"
+        },
+        {
+          "relationType": "References",
+          "relatedItemType": "JournalArticle",
+          "creators": [
+            {
+              "name": "Perutz, M.F.",
+              "nameType": "Personal",
+              "familyName": "Perutz",
+              "givenName": "M.F."
+            }
+          ],
+          "titles": [
+            {
+              "title": "Regulation of Oxygen Affinity of Hemoglobin. Influence of Structure of the Globin on the Heme Iron"
+            }
+          ],
+          "publicationYear": "1979",
+          "volume": "48",
+          "firstPage": "327"
+        },
+        {
+          "relationType": "References",
+          "relatedItemType": "JournalArticle",
+          "creators": [
+            {
+              "name": "Teneyck, L.F.",
+              "nameType": "Personal",
+              "familyName": "Teneyck",
+              "givenName": "L.F."
+            },
+            {
+              "name": "Arnone, A.",
+              "nameType": "Personal",
+              "familyName": "Arnone",
+              "givenName": "A."
+            }
+          ],
+          "titles": [
+            {
+              "title": "Three-Dimensional Fourier Synthesis of Human Deoxyhemoglobin at 2.5 Angstroms Resolution, I.X-Ray Analysis"
+            }
+          ],
+          "publicationYear": "1976",
+          "volume": "100",
+          "firstPage": "3"
+        },
+        {
+          "relationType": "References",
+          "relatedItemType": "JournalArticle",
+          "creators": [
+            {
+              "name": "Fermi, G.",
+              "nameType": "Personal",
+              "familyName": "Fermi",
+              "givenName": "G."
+            }
+          ],
+          "titles": [
+            {
+              "title": "Three-Dimensional Fourier Synthesis of Human Deoxyhaemoglobin at 2.5 Angstroms Resolution, Refinement of the Atomic Model"
+            }
+          ],
+          "publicationYear": "1975",
+          "volume": "97",
+          "firstPage": "237"
+        },
+        {
+          "relationType": "References",
+          "relatedItemType": "JournalArticle",
+          "creators": [
+            {
+              "name": "Muirhead, H.",
+              "nameType": "Personal",
+              "familyName": "Muirhead",
+              "givenName": "H."
+            },
+            {
+              "name": "Greer, J.",
+              "nameType": "Personal",
+              "familyName": "Greer",
+              "givenName": "J."
+            }
+          ],
+          "titles": [
+            {
+              "title": "Three-Dimensional Fourier Synthesis of Human Deoxyhaemoglobin at 3.5 Angstroms Resolution"
+            }
+          ],
+          "publicationYear": "1970",
+          "volume": "228",
+          "firstPage": "516"
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "4.3",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

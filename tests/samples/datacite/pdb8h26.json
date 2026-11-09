@@ -1,0 +1,282 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb8h26/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00008h26",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Kim, J.",
+          "nameType": "Personal",
+          "familyName": "Kim",
+          "givenName": "J.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-5213-9299",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Cho, G.",
+          "nameType": "Personal",
+          "familyName": "Cho",
+          "givenName": "G.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-6785-616X",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Lee, J.",
+          "nameType": "Personal",
+          "familyName": "Lee",
+          "givenName": "J.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-5774-1489",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Crystal structure of MnmM from S. aureus complexed with SAH (1.50 A)"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2023",
+      "subjects": [
+        {
+          "subject": "TRANSFERASE"
+        },
+        {
+          "subject": "Methyltrnasferase tRNA post-transcriptional modification MnmC mnm5(s2)U"
+        },
+        {
+          "subject": "Staphylococcus aureus subsp. aureus NCTC 8325",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93061",
+          "classificationCode": "93061"
+        },
+        {
+          "subject": "X-RAY DIFFRACTION",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "16S rRNA (Cytosine(1402)-N(4))-methyltransferase"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Jungwook, Kim",
+          "nameType": "Personal",
+          "familyName": "Jungwook",
+          "givenName": "Kim",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-5213-9299",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ],
+          "contributorType": "ContactPerson"
+        },
+        {
+          "name": "Gyuhyeok, Cho",
+          "nameType": "Personal",
+          "familyName": "Gyuhyeok",
+          "givenName": "Cho",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-6785-616X",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ],
+          "contributorType": "ContactPerson"
+        },
+        {
+          "name": "Jangmin, Lee",
+          "nameType": "Personal",
+          "familyName": "Jangmin",
+          "givenName": "Lee",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-5774-1489",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ],
+          "contributorType": "ContactPerson"
+        },
+        {
+          "name": "Protein Data Bank in Europe",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2022-10-05",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2023-01-18",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2024-06-19",
+          "dateType": "Updated",
+          "dateInformation": "Data collection"
+        },
+        {
+          "date": "2025-12-10",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Structure summary"
+        },
+        {
+          "date": "2022-06-29",
+          "dateType": "Collected"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "8H26",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00008h26",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/Q2FXG9",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "REFMAC"
+            }
+          ],
+          "edition": "5.8.0267"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "MxDC"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "XDS"
+            }
+          ],
+          "edition": "Jan 10, 2022"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "STARANISO"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "Coot"
+            }
+          ],
+          "edition": "0.9.8.3"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "MOLREP"
+            }
+          ],
+          "edition": "11.9.02"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PDB_EXTRACT"
+            }
+          ],
+          "edition": "3.27"
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "1.2",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "0.1 M BIS-TRIS pH 6.5 and 25% w/v PEG3350",
+          "descriptionType": "Methods"
+        }
+      ],
+      "fundingReferences": [
+        {
+          "funderName": "National Research Foundation (NRF, Korea)",
+          "funderIdentifier": "https://ror.org/013aysd81",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

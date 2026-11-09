@@ -1,0 +1,212 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb7z40/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00007z40",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Schmidt, M.",
+          "nameType": "Personal",
+          "familyName": "Schmidt",
+          "givenName": "M.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-9442-460X",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Steinebrei, M.",
+          "nameType": "Personal",
+          "familyName": "Steinebrei",
+          "givenName": "M.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-0582-3909",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "wild type ATTR amyloid fibril from senile systemic amyloidosis"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2023",
+      "subjects": [
+        {
+          "subject": "PROTEIN FIBRIL"
+        },
+        {
+          "subject": "Transthyretin amyliod fibril"
+        },
+        {
+          "subject": "Homo sapiens",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+          "classificationCode": "9606"
+        },
+        {
+          "subject": "ELECTRON MICROSCOPY",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "Transthyretin"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Schmidt, Matthias",
+          "nameType": "Personal",
+          "familyName": "Schmidt",
+          "givenName": "Matthias",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0003-2123-6816",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ],
+          "contributorType": "ContactPerson"
+        },
+        {
+          "name": "Protein Data Bank in Europe",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2022-03-03",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2023-01-18",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2023-03-15",
+          "dateType": "Withdrawn",
+          "dateInformation": "Advisory, Other"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "7Z40",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00007z40",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1038/s41467-022-33591-4",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "36302762",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-14482",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "associated EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "10.2210/pdb8ade/pdb",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsObsoletedBy",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/P02766",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "RELION"
+            }
+          ],
+          "edition": "3.1"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "CTFFIND"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCollectedBy",
+          "relatedItemType": "Instrument",
+          "titles": [
+            {
+              "title": "FEI TITAN KRIOS"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "1.1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "fundingReferences": [
+        {
+          "funderName": "German Research Foundation (DFG)",
+          "funderIdentifier": "https://ror.org/018mejw64",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "FA 456/28"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

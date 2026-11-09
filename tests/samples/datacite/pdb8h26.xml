@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb8h26/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Kim, J.</creatorName>
+      <givenName>J.</givenName>
+      <familyName>Kim</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-5213-9299</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Cho, G.</creatorName>
+      <givenName>G.</givenName>
+      <familyName>Cho</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-6785-616X</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Lee, J.</creatorName>
+      <givenName>J.</givenName>
+      <familyName>Lee</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-5774-1489</nameIdentifier>
+    </creator>
+  </creators>
+  <titles>
+    <title>Crystal structure of MnmM from S. aureus complexed with SAH (1.50 A)</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2023</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>TRANSFERASE</subject>
+    <subject>Methyltrnasferase tRNA post-transcriptional modification MnmC mnm5(s2)U</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93061" classificationCode="93061">Staphylococcus aureus subsp. aureus NCTC 8325</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">X-RAY DIFFRACTION</subject>
+    <subject>16S rRNA (Cytosine(1402)-N(4))-methyltransferase</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="ContactPerson">
+      <contributorName nameType="Personal">Jungwook, Kim</contributorName>
+      <givenName>Kim</givenName>
+      <familyName>Jungwook</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-5213-9299</nameIdentifier>
+    </contributor>
+    <contributor contributorType="ContactPerson">
+      <contributorName nameType="Personal">Gyuhyeok, Cho</contributorName>
+      <givenName>Cho</givenName>
+      <familyName>Gyuhyeok</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-6785-616X</nameIdentifier>
+    </contributor>
+    <contributor contributorType="ContactPerson">
+      <contributorName nameType="Personal">Jangmin, Lee</contributorName>
+      <givenName>Lee</givenName>
+      <familyName>Jangmin</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-5774-1489</nameIdentifier>
+    </contributor>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">Protein Data Bank in Europe</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2022-10-05</date>
+    <date dateType="Available" dateInformation="Initial release">2023-01-18</date>
+    <date dateType="Updated" dateInformation="Data collection">2024-06-19</date>
+    <date dateType="Updated" dateInformation="Data collection, Structure summary">2025-12-10</date>
+    <date dateType="Collected">2022-06-29</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">8H26</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00008h26</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/Q2FXG9</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>1.2</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Methods">0.1 M BIS-TRIS pH 6.5 and 25% w/v PEG3350</description>
+  </descriptions>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>National Research Foundation (NRF, Korea)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/013aysd81</funderIdentifier>
+    </fundingReference>
+  </fundingReferences>
+  <relatedItems>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>REFMAC</title>
+      </titles>
+      <edition>5.8.0267</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>MxDC</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>XDS</title>
+      </titles>
+      <edition>Jan 10, 2022</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>STARANISO</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>Coot</title>
+      </titles>
+      <edition>0.9.8.3</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>MOLREP</title>
+      </titles>
+      <edition>11.9.02</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>PDB_EXTRACT</title>
+      </titles>
+      <edition>3.27</edition>
+    </relatedItem>
+  </relatedItems>
+</resource>

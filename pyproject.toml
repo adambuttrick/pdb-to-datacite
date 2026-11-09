@@ -1,0 +1,23 @@
+[project]
+name = "pdb-datacite"
+version = "0.1.0"
+description = "DataCite Metadata Schema 4.7 records from PDBx/mmCIF entry files"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gemmi>=0.7",
+    "huggingface_hub>=2.2,<3",
+    "pyyaml>=6",
+    "requests>=2.32",
+    "xmlschema>=3",
+]
+
+[project.scripts]
+pdb-datacite = "pdb_datacite.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13"]
+build-backend = "uv_build"

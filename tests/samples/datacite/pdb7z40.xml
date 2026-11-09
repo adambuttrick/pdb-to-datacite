@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb7z40/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Schmidt, M.</creatorName>
+      <givenName>M.</givenName>
+      <familyName>Schmidt</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-9442-460X</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Steinebrei, M.</creatorName>
+      <givenName>M.</givenName>
+      <familyName>Steinebrei</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-0582-3909</nameIdentifier>
+    </creator>
+  </creators>
+  <titles>
+    <title>wild type ATTR amyloid fibril from senile systemic amyloidosis</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2023</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>PROTEIN FIBRIL</subject>
+    <subject>Transthyretin amyliod fibril</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606" classificationCode="9606">Homo sapiens</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">ELECTRON MICROSCOPY</subject>
+    <subject>Transthyretin</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="ContactPerson">
+      <contributorName nameType="Personal">Schmidt, Matthias</contributorName>
+      <givenName>Matthias</givenName>
+      <familyName>Schmidt</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0003-2123-6816</nameIdentifier>
+    </contributor>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">Protein Data Bank in Europe</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2022-03-03</date>
+    <date dateType="Available" dateInformation="Initial release">2023-01-18</date>
+    <date dateType="Withdrawn" dateInformation="Advisory, Other">2023-03-15</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">7Z40</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00007z40</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.1038/s41467-022-33591-4</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">36302762</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="associated EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-14482</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsObsoletedBy" resourceTypeGeneral="Dataset">10.2210/pdb8ade/pdb</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References" resourceTypeGeneral="Dataset">https://www.uniprot.org/uniprotkb/P02766</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+    <format>PDB</format>
+  </formats>
+  <version>1.1</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>German Research Foundation (DFG)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/018mejw64</funderIdentifier>
+      <awardNumber>FA 456/28</awardNumber>
+    </fundingReference>
+  </fundingReferences>
+  <relatedItems>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>RELION</title>
+      </titles>
+      <edition>3.1</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>CTFFIND</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Instrument" relationType="IsCollectedBy">
+      <titles>
+        <title>FEI TITAN KRIOS</title>
+      </titles>
+    </relatedItem>
+  </relatedItems>
+</resource>

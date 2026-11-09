@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+  <identifier identifierType="DOI">10.2210/pdb9uol/pdb</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Yamashita, M.</creatorName>
+      <givenName>M.</givenName>
+      <familyName>Yamashita</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0009-0000-3829-193X</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Kawakami, N.</creatorName>
+      <givenName>N.</givenName>
+      <familyName>Kawakami</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-0981-9499</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Arai, R.</creatorName>
+      <givenName>R.</givenName>
+      <familyName>Arai</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-5606-8483</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Ikeda, A.</creatorName>
+      <givenName>A.</givenName>
+      <familyName>Ikeda</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Moriya, T.</creatorName>
+      <givenName>T.</givenName>
+      <familyName>Moriya</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-7226-5487</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Senda, T.</creatorName>
+      <givenName>T.</givenName>
+      <familyName>Senda</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-5153-928X</nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Miyamoto, K.</creatorName>
+      <givenName>K.</givenName>
+      <familyName>Miyamoto</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0003-0080-4693</nameIdentifier>
+    </creator>
+  </creators>
+  <titles>
+    <title>Cryo-EM structure of pyrene-modified TIP60 double mutant (G12C/S50C) with addition of Nile Red</title>
+  </titles>
+  <publisher publisherIdentifier="https://ror.org/047qy5748" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Worldwide Protein Data Bank</publisher>
+  <publicationYear>2025</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Structure model</resourceType>
+  <subjects>
+    <subject>DE NOVO PROTEIN</subject>
+    <subject>Artificial designed protein complex</subject>
+    <subject>Fusion protein</subject>
+    <subject>Protein nanocage</subject>
+    <subject>Protein nanoparticle</subject>
+    <subject>Pyrene modification</subject>
+    <subject subjectScheme="NCBI Taxonomy" schemeURI="https://www.ncbi.nlm.nih.gov/taxonomy" valueURI="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32630" classificationCode="32630">synthetic construct</subject>
+    <subject subjectScheme="PDBx/mmCIF _exptl.method" schemeURI="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html">ELECTRON MICROSCOPY</subject>
+    <subject>TIP60 double mutant (G12C/S50C)</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="ContactPerson">
+      <contributorName nameType="Personal">Kawakami, Norifumi</contributorName>
+      <givenName>Norifumi</givenName>
+      <familyName>Kawakami</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-0981-9499</nameIdentifier>
+    </contributor>
+    <contributor contributorType="ContactPerson">
+      <contributorName nameType="Personal">Arai, Ryoichi</contributorName>
+      <givenName>Ryoichi</givenName>
+      <familyName>Arai</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-5606-8483</nameIdentifier>
+    </contributor>
+    <contributor contributorType="DataCurator">
+      <contributorName nameType="Organizational">Protein Data Bank Japan</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Submitted">2025-04-26</date>
+    <date dateType="Available" dateInformation="Initial release">2025-11-19</date>
+    <date dateType="Updated" dateInformation="Data collection, Database references">2025-11-26</date>
+  </dates>
+  <language>en</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PDB ID">9UOL</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="Extended PDB ID">pdb_00009uol</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">10.1039/d5bm01052g</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementTo" resourceTypeGeneral="JournalArticle">41099093</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="References" resourceTypeGeneral="JournalArticle">10.1002/cplu.202200392</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="References" resourceTypeGeneral="JournalArticle">36775805</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="References" resourceTypeGeneral="JournalArticle">10.1039/d1cc03114g</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="References" resourceTypeGeneral="JournalArticle">34523636</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="References" resourceTypeGeneral="JournalArticle">10.1002/anie.201805565</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="PMID" relationType="References" resourceTypeGeneral="JournalArticle">30066354</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="Other" relationTypeInformation="associated EM volume" resourceTypeGeneral="Dataset">https://www.ebi.ac.uk/emdb/EMD-64381</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDerivedFrom" resourceTypeGeneral="Dataset">10.2210/pdb7eq9/pdb</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDBx/mmCIF</format>
+    <format>PDBML</format>
+  </formats>
+  <version>1.1</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rightsIdentifier="cc0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/">Creative Commons Zero v1.0 Universal</rights>
+  </rightsList>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>Japan Agency for Medical Research and Development (AMED)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/004rtk039</funderIdentifier>
+      <awardNumber>JP24ama121001</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Japan Society for the Promotion of Science (JSPS)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/00hhkn466</funderIdentifier>
+      <awardNumber>JP18K05324</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Japan Society for the Promotion of Science (JSPS)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/00hhkn466</funderIdentifier>
+      <awardNumber>JP17KK0104</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Japan Society for the Promotion of Science (JSPS)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/00hhkn466</funderIdentifier>
+      <awardNumber>JP19H02522</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Japan Society for the Promotion of Science (JSPS)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/00hhkn466</funderIdentifier>
+      <awardNumber>JP24K01267</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Japan Society for the Promotion of Science (JSPS)</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/00hhkn466</funderIdentifier>
+      <awardNumber>JP24KJ1946</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Japan Science and Technology</funderName>
+      <funderIdentifier funderIdentifierType="ROR" schemeURI="https://ror.org/">https://ror.org/00097mb19</funderIdentifier>
+      <awardNumber>JPMJSP2123</awardNumber>
+    </fundingReference>
+  </fundingReferences>
+  <relatedItems>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>Topaz</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>EPU</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>CTFFIND</title>
+      </titles>
+      <edition>4.1.14</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>Coot</title>
+      </titles>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>PHENIX</title>
+      </titles>
+      <edition>1.21.2_5419</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Software" relationType="IsCompiledBy">
+      <titles>
+        <title>RELION</title>
+      </titles>
+      <edition>4.0.2</edition>
+    </relatedItem>
+    <relatedItem relatedItemType="Instrument" relationType="IsCollectedBy">
+      <titles>
+        <title>FEI TALOS ARCTICA</title>
+      </titles>
+    </relatedItem>
+  </relatedItems>
+</resource>

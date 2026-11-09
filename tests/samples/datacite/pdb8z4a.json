@@ -1,0 +1,215 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb8z4a/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00008z4a",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Deshmukh, M.V.",
+          "nameType": "Personal",
+          "familyName": "Deshmukh",
+          "givenName": "M.V.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0003-2447-9725",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Paturi, S.",
+          "nameType": "Personal",
+          "familyName": "Paturi",
+          "givenName": "S.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0003-2468-8383",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Patra, D.",
+          "nameType": "Personal",
+          "familyName": "Patra",
+          "givenName": "D.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-4427-7357",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Solution Structure of DRB4 C-terminal domain, DRB4D3"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2025",
+      "subjects": [
+        {
+          "subject": "PLANT PROTEIN"
+        },
+        {
+          "subject": "DRB4"
+        },
+        {
+          "subject": "DRB7.2"
+        },
+        {
+          "subject": "RNAi"
+        },
+        {
+          "subject": "endo-IR pathway"
+        },
+        {
+          "subject": "gene regulation"
+        },
+        {
+          "subject": "noncoding RNA"
+        },
+        {
+          "subject": "Arabidopsis thaliana",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3702",
+          "classificationCode": "3702"
+        },
+        {
+          "subject": "SOLUTION NMR",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "Double-stranded RNA-binding protein 4"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Deshmukh, Mandar V",
+          "nameType": "Personal",
+          "familyName": "Deshmukh",
+          "givenName": "Mandar V",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0003-2447-9725",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ],
+          "contributorType": "ContactPerson"
+        },
+        {
+          "name": "Protein Data Bank Japan",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2024-04-17",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2025-04-23",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "8Z4A",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00008z4a",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.7554/elife.105762.1",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "https://www.uniprot.org/uniprotkb/Q8H1D4",
+          "relatedIdentifierType": "URL",
+          "relationType": "References",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "CARA"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "Rosetta"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "TopSpin"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML",
+        "PDB"
+      ],
+      "version": "1.0",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "fundingReferences": [
+        {
+          "funderName": "Council of Scientific & Industrial Research (CSIR)",
+          "funderIdentifier": "https://ror.org/021wm7p51",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "MLP0161"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

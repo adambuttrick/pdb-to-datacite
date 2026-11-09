@@ -1,0 +1,405 @@
+{
+  "data": {
+    "type": "dois",
+    "attributes": {
+      "doi": "10.2210/pdb9uol/pdb",
+      "url": "https://www.wwpdb.org/pdb?id=pdb_00009uol",
+      "types": {
+        "resourceTypeGeneral": "Dataset",
+        "resourceType": "Structure model"
+      },
+      "creators": [
+        {
+          "name": "Yamashita, M.",
+          "nameType": "Personal",
+          "familyName": "Yamashita",
+          "givenName": "M.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0009-0000-3829-193X",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Kawakami, N.",
+          "nameType": "Personal",
+          "familyName": "Kawakami",
+          "givenName": "N.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-0981-9499",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Arai, R.",
+          "nameType": "Personal",
+          "familyName": "Arai",
+          "givenName": "R.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-5606-8483",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Ikeda, A.",
+          "nameType": "Personal",
+          "familyName": "Ikeda",
+          "givenName": "A."
+        },
+        {
+          "name": "Moriya, T.",
+          "nameType": "Personal",
+          "familyName": "Moriya",
+          "givenName": "T.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-7226-5487",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Senda, T.",
+          "nameType": "Personal",
+          "familyName": "Senda",
+          "givenName": "T.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-5153-928X",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        },
+        {
+          "name": "Miyamoto, K.",
+          "nameType": "Personal",
+          "familyName": "Miyamoto",
+          "givenName": "K.",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0003-0080-4693",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Cryo-EM structure of pyrene-modified TIP60 double mutant (G12C/S50C) with addition of Nile Red"
+        }
+      ],
+      "publisher": {
+        "name": "Worldwide Protein Data Bank",
+        "publisherIdentifier": "https://ror.org/047qy5748",
+        "publisherIdentifierScheme": "ROR",
+        "schemeUri": "https://ror.org/"
+      },
+      "publicationYear": "2025",
+      "subjects": [
+        {
+          "subject": "DE NOVO PROTEIN"
+        },
+        {
+          "subject": "Artificial designed protein complex"
+        },
+        {
+          "subject": "Fusion protein"
+        },
+        {
+          "subject": "Protein nanocage"
+        },
+        {
+          "subject": "Protein nanoparticle"
+        },
+        {
+          "subject": "Pyrene modification"
+        },
+        {
+          "subject": "synthetic construct",
+          "subjectScheme": "NCBI Taxonomy",
+          "schemeUri": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "valueUri": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32630",
+          "classificationCode": "32630"
+        },
+        {
+          "subject": "ELECTRON MICROSCOPY",
+          "subjectScheme": "PDBx/mmCIF _exptl.method",
+          "schemeUri": "https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html"
+        },
+        {
+          "subject": "TIP60 double mutant (G12C/S50C)"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Kawakami, Norifumi",
+          "nameType": "Personal",
+          "familyName": "Kawakami",
+          "givenName": "Norifumi",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-0981-9499",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ],
+          "contributorType": "ContactPerson"
+        },
+        {
+          "name": "Arai, Ryoichi",
+          "nameType": "Personal",
+          "familyName": "Arai",
+          "givenName": "Ryoichi",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0001-5606-8483",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid.org/"
+            }
+          ],
+          "contributorType": "ContactPerson"
+        },
+        {
+          "name": "Protein Data Bank Japan",
+          "nameType": "Organizational",
+          "contributorType": "DataCurator"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2025-04-26",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2025-11-19",
+          "dateType": "Available",
+          "dateInformation": "Initial release"
+        },
+        {
+          "date": "2025-11-26",
+          "dateType": "Updated",
+          "dateInformation": "Data collection, Database references"
+        }
+      ],
+      "language": "en",
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifier": "9UOL",
+          "alternateIdentifierType": "PDB ID"
+        },
+        {
+          "alternateIdentifier": "pdb_00009uol",
+          "alternateIdentifierType": "Extended PDB ID"
+        }
+      ],
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "10.1039/d5bm01052g",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "41099093",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.1002/cplu.202200392",
+          "relatedIdentifierType": "DOI",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "36775805",
+          "relatedIdentifierType": "PMID",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.1039/d1cc03114g",
+          "relatedIdentifierType": "DOI",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "34523636",
+          "relatedIdentifierType": "PMID",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "10.1002/anie.201805565",
+          "relatedIdentifierType": "DOI",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "30066354",
+          "relatedIdentifierType": "PMID",
+          "relationType": "References",
+          "resourceTypeGeneral": "JournalArticle"
+        },
+        {
+          "relatedIdentifier": "https://www.ebi.ac.uk/emdb/EMD-64381",
+          "relatedIdentifierType": "URL",
+          "relationType": "Other",
+          "relationTypeInformation": "associated EM volume",
+          "resourceTypeGeneral": "Dataset"
+        },
+        {
+          "relatedIdentifier": "10.2210/pdb7eq9/pdb",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsDerivedFrom",
+          "resourceTypeGeneral": "Dataset"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "Topaz"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "EPU"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "CTFFIND"
+            }
+          ],
+          "edition": "4.1.14"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "Coot"
+            }
+          ]
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "PHENIX"
+            }
+          ],
+          "edition": "1.21.2_5419"
+        },
+        {
+          "relationType": "IsCompiledBy",
+          "relatedItemType": "Software",
+          "titles": [
+            {
+              "title": "RELION"
+            }
+          ],
+          "edition": "4.0.2"
+        },
+        {
+          "relationType": "IsCollectedBy",
+          "relatedItemType": "Instrument",
+          "titles": [
+            {
+              "title": "FEI TALOS ARCTICA"
+            }
+          ]
+        }
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDBML"
+      ],
+      "version": "1.1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "fundingReferences": [
+        {
+          "funderName": "Japan Agency for Medical Research and Development (AMED)",
+          "funderIdentifier": "https://ror.org/004rtk039",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "JP24ama121001"
+        },
+        {
+          "funderName": "Japan Society for the Promotion of Science (JSPS)",
+          "funderIdentifier": "https://ror.org/00hhkn466",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "JP18K05324"
+        },
+        {
+          "funderName": "Japan Society for the Promotion of Science (JSPS)",
+          "funderIdentifier": "https://ror.org/00hhkn466",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "JP17KK0104"
+        },
+        {
+          "funderName": "Japan Society for the Promotion of Science (JSPS)",
+          "funderIdentifier": "https://ror.org/00hhkn466",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "JP19H02522"
+        },
+        {
+          "funderName": "Japan Society for the Promotion of Science (JSPS)",
+          "funderIdentifier": "https://ror.org/00hhkn466",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "JP24K01267"
+        },
+        {
+          "funderName": "Japan Society for the Promotion of Science (JSPS)",
+          "funderIdentifier": "https://ror.org/00hhkn466",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "JP24KJ1946"
+        },
+        {
+          "funderName": "Japan Science and Technology",
+          "funderIdentifier": "https://ror.org/00097mb19",
+          "funderIdentifierType": "ROR",
+          "schemeUri": "https://ror.org/",
+          "awardNumber": "JPMJSP2123"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

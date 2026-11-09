@@ -1,0 +1,341 @@
+# PDBx/mmCIF to DataCite Metadata Schema 4.7.
+#
+# - Each property is one key of the DataCite record, in the order of this file.
+# - Properties in the mandatory block must have a value. The converter writes
+#   a record without one to the incomplete directory, with the names of the
+#   missing properties. Properties in the optional block are left out when
+#   they have no value.
+# - "sources" lists rules in order. Each rule is a builder name from
+#   src/pdb_datacite/crosswalk/builders.py with its parameters. A list
+#   property gets the values of all its rules. A single-value property gets
+#   the first value.
+# - "distinct" removes repeated values across all the rules of a property.
+# - PDB names are written without the leading "_": "entity.pdbx_ec" is the
+#   mmCIF item _entity.pdbx_ec.
+# - The "field" builder reads one PDB item into one value per row. Use it to
+#   add a one-to-one field. "{value}" in "emit" is the value read.
+
+# Each lookup is a CSV file that the converter gets with --lookup NAME=PATH.
+lookups:
+  funders:
+    key_column: funding_organization
+
+# Shared parts. "&name" names a part, "*name" uses it again.
+definitions:
+  doi: &doi
+    strip: '(?i)^(?:doi:|https?://(?:dx\.)?doi\.org/)'
+    pattern: '10\.\d{4,9}/\S+'
+    scheme: DOI
+  pdb_doi: &pdb_doi
+    pattern: '(?:pdb_0000)?(?P<id>[0-9][A-Za-z0-9]{3})'
+    lower: true
+    template: '10.2210/pdb{id}/pdb'
+    scheme: DOI
+  pmid: &pmid
+    pattern: '\d+'
+    reject: ['0']
+    scheme: PMID
+  orcid: &orcid
+    pattern: '(?P<id>\d{4}-\d{4}-\d{4}-\d{3}[\dX])'
+    template: 'https://orcid.org/{id}'
+    scheme: ORCID
+    scheme_uri: 'https://orcid.org/'
+  citations: &citations
+    category: citation
+    id_item: id
+    relations: {primary: IsSupplementTo}
+    other_relation: References
+    journal_item: journal_abbrev
+    unpublished_journal: to be published
+    identifiers:
+      pdbx_database_id_DOI: *doi
+      pdbx_database_id_PubMed: *pmid
+
+mandatory:
+  doi:
+    sources:
+      - pdb_database_value:
+          item: pdbx_DOI
+          resolver: *doi
+      - entry_id_value:
+          resolver: *pdb_doi
+
+  # Not mandatory in DataCite 4.7, but the REST API needs it to register a findable DOI.
+  url:
+    sources:
+      - entry_url:
+          template: 'https://www.wwpdb.org/pdb?id={extended_id}'
+
+  types:
+    sources:
+      - constant:
+          values:
+            - resourceTypeGeneral: Dataset
+              resourceType: Structure model
+
+  creators:
+    sources:
+      - persons:
+          category: audit_author
+          order_by: pdbx_ordinal
+          name_item: name
+          orcid_item: identifier_ORCID
+          orcid: *orcid
+
+  titles:
+    sources:
+      - field:
+          item: struct.title
+          first: true
+          emit: {title: '{value}'}
+
+  publisher:
+    sources:
+      - constant:
+          values:
+            - name: Worldwide Protein Data Bank
+              publisherIdentifier: 'https://ror.org/047qy5748'
+              publisherIdentifierScheme: ROR
+              schemeUri: 'https://ror.org/'
+
+  publicationYear:
+    sources:
+      - release_year: {}
+      - deposition_year: {}
+
+optional:
+  subjects:
+    distinct: unschemed_subject
+    sources:
+      - keyword_subjects:
+          category: struct_keywords
+          whole_item: pdbx_keywords
+          split_item: text
+          separator: ','
+      - taxonomy_subjects:
+          sources:
+            - {category: entity_src_gen, name_item: pdbx_gene_src_scientific_name, id_item: pdbx_gene_src_ncbi_taxonomy_id}
+            - {category: entity_src_nat, name_item: pdbx_organism_scientific, id_item: pdbx_ncbi_taxonomy_id}
+            - {category: pdbx_entity_src_syn, name_item: organism_scientific, id_item: ncbi_taxonomy_id}
+            - {category: em_entity_assembly_naturalsource, name_item: organism, id_item: ncbi_tax_id}
+          separator: ','
+          scheme: NCBI Taxonomy
+          scheme_uri: 'https://www.ncbi.nlm.nih.gov/taxonomy'
+          value_uri: 'https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={code}'
+      - field:
+          item: exptl.method
+          distinct: true
+          emit:
+            subject: '{value}'
+            subjectScheme: PDBx/mmCIF _exptl.method
+            schemeUri: 'https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_exptl.method.html'
+      - field:
+          item: entity.pdbx_description
+          where: {type: polymer}
+          emit: {subject: '{value}'}
+      - field:
+          item: entity.pdbx_ec
+          split: ','
+          resolver: {pattern: '\d+\.(?:\d+|-)\.(?:\d+|-)\.(?:n?\d+|-)'}
+          distinct: true
+          emit:
+            subject: '{value}'
+            subjectScheme: Enzyme Commission number
+            schemeUri: 'https://www.enzyme-database.org/'
+            valueUri: 'https://www.enzyme-database.org/query.php?ec={value}'
+            classificationCode: '{value}'
+
+  contributors:
+    sources:
+      - contact_persons:
+          category: pdbx_contact_author
+          order_by: id
+          family_item: name_last
+          given_items: [name_first, name_mi]
+          orcid_item: identifier_ORCID
+          orcid: *orcid
+          contributor_type: ContactPerson
+      - coded_organization:
+          category: pdbx_database_status
+          item: process_site
+          names:
+            RCSB: RCSB Protein Data Bank
+            PDBE: Protein Data Bank in Europe
+            PDBJ: Protein Data Bank Japan
+            BMRB: Biological Magnetic Resonance Bank
+            PDBC: Protein Data Bank China
+            BNL: Protein Data Bank at Brookhaven National Laboratory
+            NDB: Nucleic Acid Database
+          fixed: {nameType: Organizational, contributorType: DataCurator}
+      - field:
+          item: pdbx_SG_project.full_name_of_center
+          clean: false
+          distinct: true
+          emit: {name: '{value}', nameType: Organizational, contributorType: ResearchGroup}
+
+  dates:
+    sources:
+      - deposition_date:
+          date_type: Submitted
+      - revision_dates:
+          first: Available
+          later: Updated
+          obsolete_revision_type: Obsolete
+          obsolete: Withdrawn
+      - field:
+          item: [diffrn_detector.pdbx_collection_date, em_imaging.date]
+          resolver: {pattern: '\d{4}-\d{2}-\d{2}'}
+          distinct: true
+          emit: {date: '{value}', dateType: Collected}
+
+  language:
+    sources:
+      - constant:
+          values: [en]
+
+  alternateIdentifiers:
+    sources:
+      - pdb_ids:
+          id_type: PDB ID
+          extended_type: Extended PDB ID
+
+  relatedIdentifiers:
+    distinct: value
+    sources:
+      - citation_identifiers:
+          citations: *citations
+          article_type: JournalArticle
+      - related_entries:
+          category: pdbx_database_related
+          db_item: db_name
+          id_item: db_id
+          label_item: content_type
+          skip_labels: [unspecified, other]
+          relation: Other
+          resource_type: Dataset
+          resolvers:
+            PDB: *pdb_doi
+            EMDB:
+              pattern: '(?i)(?:EMD-)?(?P<id>\d{4,})'
+              template: 'https://www.ebi.ac.uk/emdb/EMD-{id}'
+              scheme: URL
+            BMRB:
+              pattern: '(?P<id>\d+)'
+              template: 'https://bmrb.io/data_library/summary/index.php?bmrbId={id}'
+              scheme: URL
+            SASBDB:
+              pattern: '(?P<id>SAS[A-Z0-9]+)'
+              template: 'https://identifiers.org/sasbdb:{id}'
+              scheme: URL
+      - field:
+          item: pdbx_initial_refinement_model.accession_code
+          where: {source_name: PDB}
+          resolver: *pdb_doi
+          emit: {relatedIdentifier: '{value}', relatedIdentifierType: DOI, relationType: IsDerivedFrom, resourceTypeGeneral: Dataset}
+      - field:
+          item: pdbx_related_exp_data_set.data_reference
+          resolver: *doi
+          emit: {relatedIdentifier: '{value}', relatedIdentifierType: DOI, relationType: IsDerivedFrom, resourceTypeGeneral: Dataset}
+      - supersessions:
+          category: pdbx_database_PDB_obs_spr
+          kind_item: id
+          new_item: pdb_id
+          old_item: replace_pdb_id
+          replaces: {kind: SPRSDE, relation: Obsoletes}
+          replaced_by: {kind: OBSLTE, relation: IsObsoletedBy}
+          resolver: *pdb_doi
+          resource_type: Dataset
+      - field:
+          item: struct_ref.pdbx_db_accession
+          where: {db_name: UNP}
+          case: upper
+          resolver: {pattern: '(?:[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9](?:[A-Z][A-Z0-9]{2}[0-9]){1,2})(?:-\d+)?'}
+          emit:
+            relatedIdentifier: 'https://www.uniprot.org/uniprotkb/{value}'
+            relatedIdentifierType: URL
+            relationType: References
+            resourceTypeGeneral: Dataset
+
+  relatedItems:
+    sources:
+      - citation_items:
+          citations: *citations
+          title_item: title
+          book_item: book_title
+          article_type: JournalArticle
+          book_type: BookChapter
+          authors: {category: citation_author, citation_item: citation_id, name_item: name, order_by: ordinal}
+          fields:
+            year: publicationYear
+            journal_volume: volume
+            journal_issue: issue
+            page_first: firstPage
+            page_last: lastPage
+      - deposit_groups:
+          category: pdbx_deposit_group
+          id_item: group_id
+          title_item: group_title
+          relation: IsPartOf
+          item_type: Collection
+          number_type: Other
+      - software_items:
+          categories: [software, em_software, pdbx_nmr_software]
+          name_item: name
+          version_item: version
+          relation: IsCompiledBy
+          item_type: Software
+      - field:
+          item: em_imaging.microscope_model
+          distinct: true
+          emit: {relationType: IsCollectedBy, relatedItemType: Instrument, titles: [{title: '{value}'}]}
+
+  formats:
+    sources:
+      - constant:
+          values: [PDBx/mmCIF, PDBML]
+      - flag_constant:
+          category: pdbx_database_status
+          item: pdb_format_compatible
+          equals: 'Y'
+          values: [PDB]
+
+  version:
+    sources:
+      - last_revision_version: {}
+
+  rightsList:
+    sources:
+      - constant:
+          values:
+            - rights: Creative Commons Zero v1.0 Universal
+              rightsUri: 'https://creativecommons.org/publicdomain/zero/1.0/legalcode'
+              rightsIdentifier: cc0-1.0
+              rightsIdentifierScheme: SPDX
+              schemeUri: 'https://spdx.org/licenses/'
+
+  descriptions:
+    sources:
+      - field:
+          item: exptl_crystal_grow.pdbx_details
+          distinct: true
+          emit: {description: '{value}', descriptionType: Methods}
+
+  fundingReferences:
+    distinct: value
+    sources:
+      - funding:
+          category: pdbx_audit_support
+          order_by: ordinal
+          name_item: funding_organization
+          award_item: grant_number
+          funders: {lookup: funders}
+          id_column: ror_id
+          status_column: status
+          skip_statuses: [excluded]
+          identifier_type: ROR
+          scheme_uri: 'https://ror.org/'
+
+  schemaVersion:
+    sources:
+      - constant:
+          values: ['http://datacite.org/schema/kernel-4']
