@@ -166,3 +166,9 @@ The builders are the public functions in `pdb_datacite.crosswalk.builders`. The 
 `lookups` names each CSV table that the mapping reads, with its key column. Give the file for each lookup with `--lookup NAME=PATH`.
 
 The converter checks the mapping before it converts an entry. If the mapping has an error, the converter stops and gives the YAML path of the error.
+
+## License
+
+The code is available under the MIT License. See [LICENSE](LICENSE).
+
+The records use PDB data. PDB data is available under CC0 1.0.
